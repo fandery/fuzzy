@@ -2,6 +2,8 @@ import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('TkAgg')
 
 # New Antecedent/Consequent objects hold universe variables and membership
 # functions
